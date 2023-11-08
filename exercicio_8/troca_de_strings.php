@@ -16,7 +16,7 @@
 
         // str_replace("string na frase", "string pela qual quer trocar", frase);
         $frase = str_replace("Facebook", "troca1", $frase); // trocar a primeira palavra por outra qualquer
-        $frase = str_replace("Google", "troca2", $frase); // trocar a egunda palavra por outra qualquer
+        $frase = str_replace("Google", "troca2", $frase); // trocar a segunda palavra por outra qualquer
         $frase = str_replace("troca1", "Google", $frase); // trocar a primeira palavra pela segunda
         $frase = str_replace("troca2", "Facebook", $frase); // trocar a segunda palavra pela primeira
         
