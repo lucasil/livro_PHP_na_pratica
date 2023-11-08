@@ -14,7 +14,7 @@
 
         echo $palavra . "<br>";
 
-        $palavra = strrev($palavra);
+        $palavra = strrev($palavra); // strrev() reverte a string colocada nos parêntesis
 
         echo $palavra;
     ?>

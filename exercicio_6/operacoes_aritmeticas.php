@@ -17,7 +17,7 @@
         
         echo "A soma de $n1, $n2 e $n3 é: $soma.<br>";
 
-        $raiz = sqrt($soma);
+        $raiz = sqrt($soma); // sqrt() faz a raíz quadrada no número entre parêntesis
 
         echo "A raiz quadrada de $soma é: $raiz.";
     ?>

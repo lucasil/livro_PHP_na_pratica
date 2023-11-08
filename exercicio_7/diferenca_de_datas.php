@@ -10,6 +10,7 @@
     <h1>Exercício 7 - Diferença de Datas</h1>
 
     <?php
+        // mktime lê a hora e data (horas, minutos, segundos, mês, dia, ano)
         $data1 = mktime(0, 0, 0, 2, 28, 2016);
         $data2 = mktime(0, 0, 0, 3, 4, 2016);
         $dif = $data2 - $data1;
