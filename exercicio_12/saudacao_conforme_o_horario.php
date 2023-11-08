@@ -22,6 +22,5 @@
             echo "<p style='color:blue'>Boa noite!</p>";        
         }
     ?>
-    
 </body>
 </html>
