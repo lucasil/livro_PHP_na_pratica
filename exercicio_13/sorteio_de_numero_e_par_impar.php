@@ -10,7 +10,13 @@
     <h1>Exercício 13 - Sorteio de Número e par/ímpar</h1>
 
     <?php
-    
+        $num = rand(1 , 10);
+
+        if ($num % 2 == 0) {
+            echo "O número $num é par!";
+        } else {
+            echo "O número $num é ímpar!";
+        }
     ?>
 </body>
 </html>
